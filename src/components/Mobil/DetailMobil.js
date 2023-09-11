@@ -21,7 +21,7 @@ const DetailMobil = () => {
       try {
         const carResponse = await api.getCarById(id);
         setCarData(carResponse.data);
-        setIsLoading(false); // Set isLoading menjadi false setelah data berhasil diambil
+        setIsLoading(false); 
       } catch (error) {
         console.error("Error fetching car details:", error);
       }
@@ -30,7 +30,7 @@ const DetailMobil = () => {
     fetchCarById();
   }, [id]);
   const rowStyle = {
-    margin: "0", // Mengatur margin menjadi 0
+    margin: "0", 
   };
   return (
     <Container className="mb-5 custom-margin-detail-mobil">

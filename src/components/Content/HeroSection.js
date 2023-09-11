@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import Mercedes from "../../assets/images/img_car.png";
-import { Link } from "react-router-dom"; // Import Link
+import { Link } from "react-router-dom";
 function HeroSection() {
   return (
     <Container fluid className="custom-navbar custom-margin-hero">
@@ -9,7 +9,7 @@ function HeroSection() {
         <Col className="col-lg-5  col-10 ">
           <div className="mt-lg-5">
             <h1 className="fw-bold fs-2  judul">
-              Sewa & Rental Mobil Terbaik di kawasan (Lokasimu)
+              Sewa & Rental Mobil Terbaik di kawasan Ciwaru
             </h1>
             <p className="desc fw-bold">
               Selamat datang di Binar Car Rental. Kami menyediakan mobil
@@ -18,7 +18,6 @@ function HeroSection() {
             </p>
             <Link to="/cari-mobil">
               {" "}
-              {/* Use Link to navigate */}
               <button
                 type="button"
                 className="btn text-white btn-mobile"

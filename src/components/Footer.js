@@ -59,7 +59,7 @@ function Footer() {
                 width: "32px",
                 height: "32px",
                 backgroundColor: "#0D28A6",
-                marginRight: "10px", // Menambahkan spasi horizontal di sini
+                marginRight: "10px", 
               }}
             >
               <i className="bi bi-facebook text-white"></i>
@@ -72,7 +72,7 @@ function Footer() {
                 width: "32px",
                 height: "32px",
                 backgroundColor: "#0D28A6",
-                marginRight: "10px", // Menambahkan spasi horizontal di sini
+                marginRight: "10px", 
               }}
             >
               <i className="bi bi-instagram text-white"></i>
@@ -85,7 +85,7 @@ function Footer() {
                 width: "32px",
                 height: "32px",
                 backgroundColor: "#0D28A6",
-                marginRight: "10px", // Menambahkan spasi horizontal di sini
+                marginRight: "10px", 
               }}
             >
               <i className="bi bi-twitter text-white"></i>
@@ -98,7 +98,7 @@ function Footer() {
                 width: "32px",
                 height: "32px",
                 backgroundColor: "#0D28A6",
-                marginRight: "10px", // Menambahkan spasi horizontal di sini
+                marginRight: "10px", 
               }}
             >
               <i className="bi bi-award text-white"></i>

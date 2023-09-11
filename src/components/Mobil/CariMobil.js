@@ -53,7 +53,7 @@ const CariMobil = () => {
     });
   };
 
-  // Tambahkan useEffect untuk memeriksa validitas form setiap kali formData berubah
+  //  useEffect untuk memeriksa validitas form setiap kali formData berubah
   useEffect(() => {
     if (
       formData.namaMobil !== "" &&
@@ -87,7 +87,7 @@ const CariMobil = () => {
     }
   };
   const rowStyle = {
-    margin: "0", // Mengatur margin menjadi 0
+    margin: "0",
   };
   return (
     <div>
